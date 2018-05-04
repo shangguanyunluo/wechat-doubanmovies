@@ -1,0 +1,6 @@
+<view class='page-header'>
+  <text class='page-header-text'>{{pageTitle}}</text>
+</view>
+
+<import src='../../templates/movieList.wxml'/>
+<template is='movieList' data='{{movieList}}'/>

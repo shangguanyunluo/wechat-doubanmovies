@@ -1,0 +1,7 @@
+<!--pages/movieSearch/movieSearch.wxml-->
+<view class='page-header'>
+  <input class='page-header-text' placeholder='输入搜索关键词' bindblur='searchMovie' ></input>
+</view>
+
+<import src='../../templates/movieList.wxml'/>
+<template is='movieList' data='{{movieList}}'/>

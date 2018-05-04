@@ -1,0 +1,44 @@
+
+.meta{
+  display: flex;
+  flex-direction: column;
+  flex: 1; 
+  align-items: center; 
+  padding: 50rpx 40rpx;
+}
+.poster{
+  width: 550rpx;
+  height: 700rpx;
+  margin: 20rpx;
+}
+
+.title{
+   font-size: 20px; 
+  /* font-style: 42rpx; */
+  color: #444;
+}
+
+.info{
+  font-size: 12px;
+  color: #888;
+  margin-top: 20rpx;
+  /* width: 90%; */  
+}
+
+.summary{
+  display: flex;
+  flex-direction: column;
+  margin: 0 40rpx;
+}
+
+.label{
+  font-size:20px; 
+  font-weight:bold;
+}
+.content{
+  font-size:12px; 
+  color: #888;
+}
+text{
+  border: 0rpx solid red;
+}
